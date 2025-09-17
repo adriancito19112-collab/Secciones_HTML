@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secciones en HTML</title>
+    <style>
+        body {
+            background-color: #c0c0c0;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', 'Calibri', 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .logo {
+            width: 320px;
+            height: 80px;
+            background-color: #fff;
+            margin: 20px auto;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            max-width: 600px;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 30px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><b>Secciones en HTML</b></h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="content">
+                <h5>De qué trata esto?</h5>
+                <p>Este texto es una prueba para las estructuras de un documento
+                    HTML y cómo se pueden organizar los contenidos usando diferentes
+                    etiquetas semánticas como &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;,
+                    &lt;footer&gt;, entre otras.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <h5>¿Por qué usar secciones?</h5>
+                <p>Usar secciones en HTML ayuda a mejorar la accesibilidad y la
+                    organización del contenido, facilitando la navegación tanto para
+                    usuarios como para motores de búsqueda. (Y además se parece a Google Forms)
+                </p>
+            </div>
+        </section>
+        <section <div class="content">
+            <h5>Cómo usar estas secciones?</h5>
+            <p>Este tipo de secciones puede lograrse con un &lt;div&gt; con una clase específica
+                que luego se puede modificar con CSS para darle diferentes aspectos. Esto se puede
+                hacer desde el código HTML o desde un archivo CSS externo. Puedes ver el código fuente
+                y usarlo como referencia para tus propios proyectos.
+            </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Este sitio está bajo licencia GPL y puede usarse libremente.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
